@@ -54,11 +54,7 @@ export const Third = () => {
         >
           <Stack spacing={5}>
             <Stack spacing={1} sx={style.itemCenter}>
-              <Button
-                sx={{ color: '#fff', border: '1px solid white' }}
-                href="https://brom5033.github.io/rozet/"
-                target="_blank"
-              >
+              <Button sx={{ color: '#fff', border: '1px solid white' }} href="" target="_blank">
                 ZooDiary
               </Button>
               <Grid container sx={{ fontSize: '14px' }}>
@@ -84,11 +80,7 @@ export const Third = () => {
               </Grid>
             </Stack>
             <Stack spacing={1} sx={style.itemCenter}>
-              <Button
-                sx={{ color: '#fff', border: '1px solid white' }}
-                href="https://brom5033.github.io/rozet/"
-                target="_blank"
-              >
+              <Button sx={{ color: '#fff', border: '1px solid white' }} href="" target="_blank">
                 Rozet
               </Button>
               <Grid container sx={{ fontSize: '14px' }}>
