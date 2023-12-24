@@ -88,14 +88,14 @@ export const DrawerAppBar: FC<Props> = ({ window }) => {
         >
           <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
             <Typography variant="h5" sx={{ my: 2 }}>
-              Minjeong Park
+              Yeju Choi
             </Typography>
             <Divider />
             <List>
-              {navItems.map((item) => (
-                <ListItem key={item.menuName} disablePadding component="a" href={item.src} target="_blank">
+              {navItems.map(({ menuName, src }) => (
+                <ListItem key={menuName} disablePadding component="a" href={src} target="_blank">
                   <ListItemButton sx={{ textAlign: 'center', color: 'black' }}>
-                    <ListItemText primary={item.menuName} />
+                    <ListItemText primary={menuName} />
                   </ListItemButton>
                 </ListItem>
               ))}
