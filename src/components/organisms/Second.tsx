@@ -39,7 +39,7 @@ const skillList = [
   { skillName: 'CommitLint', src: 'https://commitlint.js.org/#/', comment: '커밋메시지를 검사해줘서 좋았어요.' },
   { skillName: 'Vite', src: 'https://vitejs.dev/', comment: '웹팩보다 빠르고 간단해서 좋았어요.' },
   { skillName: 'Babel', src: 'https://babeljs.io/', comment: '최신 문법을 사용할 수 있었어요.' },
-];
+] as const;
 
 export const Second = () => {
   return (
