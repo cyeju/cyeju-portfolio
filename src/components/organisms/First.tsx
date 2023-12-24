@@ -19,7 +19,7 @@ export const First = () => {
           width: '100%',
         }}
       >
-        <span style={{ color: 'yellow' }}>개발자 최예주</span>입니다
+        <span style={{ color: '#f7e057' }}>개발자 최예주</span>입니다
       </Typography>
     </ColorSection>
   );
