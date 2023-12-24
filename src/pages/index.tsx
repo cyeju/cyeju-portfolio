@@ -1,6 +1,6 @@
-import { DrawerAppBar } from '@/components/molecules/DrawerAppBar';
-import { Footer } from '@/components/organisms/Footer';
-import { IndexTemplate } from '@/components/templates/IndexTemplate';
+import { DrawerAppBar } from '@/components/molecules';
+import { Footer } from '@/components/organisms';
+import { IndexTemplate } from '@/components/templates';
 
 export const Index = () => {
   return (

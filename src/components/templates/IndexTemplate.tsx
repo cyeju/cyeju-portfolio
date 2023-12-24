@@ -1,7 +1,4 @@
-import { First } from '@/components/organisms/First';
-import { Second } from '@/components/organisms/Second';
-import { ThirdMenu } from '../organisms/ThirdMenu';
-import { Fourth } from '@/components/organisms/Fourth';
+import { First, Second, ThirdMenu, Fourth } from '@/components/organisms';
 
 export const IndexTemplate = () => {
   return (
