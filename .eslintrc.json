@@ -11,12 +11,10 @@
     "sourceType": "module"
   },
   "plugins": ["@typescript-eslint", "react", "prettier"],
+  "globals": {
+    "React": true
+  },
   "rules": {
     "prettier/prettier": "error"
-  },
-  "settings": {
-    "react": {
-      "version": "detect"
-    }
   }
 }

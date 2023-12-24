@@ -2811,6 +2811,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"globrex@npm:^0.1.2":
+  version: 0.1.2
+  resolution: "globrex@npm:0.1.2"
+  checksum: a54c029520cf58bda1d8884f72bd49b4cd74e977883268d931fd83bcbd1a9eb96d57c7dbd4ad80148fb9247467ebfb9b215630b2ed7563b2a8de02e1ff7f89d1
+  languageName: node
+  linkType: hard
+
 "gopd@npm:^1.0.1":
   version: 1.0.1
   resolution: "gopd@npm:1.0.1"
@@ -4376,6 +4383,7 @@ __metadata:
     react-dom: "npm:^18.2.0"
     typescript: "npm:^5.3.3"
     vite: "npm:^4.4.5"
+    vite-tsconfig-paths: "npm:4.2.1"
   languageName: unknown
   linkType: soft
 
@@ -5242,6 +5250,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"tsconfck@npm:^2.1.0":
+  version: 2.1.2
+  resolution: "tsconfck@npm:2.1.2"
+  peerDependencies:
+    typescript: ^4.3.5 || ^5.0.0
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  bin:
+    tsconfck: bin/tsconfck.js
+  checksum: 6efc9cbbccdbbcafc86a744a1804fcd8438097c2beaac370444cc413fa1582a019a74002a111e3005b89ca0b0169ace730161864628fc751754e29b335c3c79f
+  languageName: node
+  linkType: hard
+
 "tslib@npm:^2.6.0, tslib@npm:^2.6.2":
   version: 2.6.2
   resolution: "tslib@npm:2.6.2"
@@ -5427,6 +5449,22 @@ __metadata:
     spdx-correct: "npm:^3.0.0"
     spdx-expression-parse: "npm:^3.0.0"
   checksum: 7b91e455a8de9a0beaa9fe961e536b677da7f48c9a493edf4d4d4a87fd80a7a10267d438723364e432c2fcd00b5650b5378275cded362383ef570276e6312f4f
+  languageName: node
+  linkType: hard
+
+"vite-tsconfig-paths@npm:4.2.1":
+  version: 4.2.1
+  resolution: "vite-tsconfig-paths@npm:4.2.1"
+  dependencies:
+    debug: "npm:^4.1.1"
+    globrex: "npm:^0.1.2"
+    tsconfck: "npm:^2.1.0"
+  peerDependencies:
+    vite: "*"
+  peerDependenciesMeta:
+    vite:
+      optional: true
+  checksum: 982fb89b9e970fa69536688cecef020a7d0df3651364b88dba66297800b81cfbe397dec41b11f9afbd3a0559bf15964ee2b4caf9a308ebd3efc158fffdc401bf
   languageName: node
   linkType: hard
 
