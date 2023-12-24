@@ -100,7 +100,7 @@ __metadata:
   version: 18.1.0
   resolution: "@commitlint/config-conventional@npm:18.1.0"
   dependencies:
-    conventional-changelog-conventionalcommits: "npm:^7.0.2"
+    conventional-changelog-conventionalcommits: ^7.0.2
   checksum: 1cbb05b52f8e288c977e08453b8add7c3d2802b2c9ec3cbb65cca38ea5e6ebe56a276c0eb5bc81b0d1630ca839ce106b71428f31d6db796860bc63c317250bba
   languageName: node
   linkType: hard
@@ -1963,7 +1963,7 @@ __metadata:
   version: 7.0.2
   resolution: "conventional-changelog-conventionalcommits@npm:7.0.2"
   dependencies:
-    compare-func: "npm:^2.0.0"
+    compare-func: ^2.0.0
   checksum: e17ac5970ae09d6e9b0c3a7edaed075b836c0c09c34c514589cbe06554f46ed525067fa8150a8467cc03b1cf9af2073e7ecf48790d4f5ea399921b1cbe313711
   languageName: node
   linkType: hard
